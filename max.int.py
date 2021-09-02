@@ -11,3 +11,15 @@ the while loop will be running
 6. Choosing the bigger number from the list which created
 7. Printing the biggest number
 '''
+
+num_int = int(input("Input a number: "))   
+
+number_list = []
+
+while num_int > 0:
+        number_list.append(num_int)
+        num_int = int(input("Input a number: "))   
+
+max_int = max(number_list)
+
+print("The maximum is", max_int) 
